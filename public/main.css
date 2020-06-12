@@ -13,16 +13,102 @@ html,body
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   font-smooth: always;
-/*  scroll-behavior: smooth;
-*/}
+  scroll-behavior: smooth;
+}
 
 body {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'ABeeZee', sans-serif;
 	margin: 0;
 	background-color: white;
 	max-width: 100%;
 }
 
+
+/*  Subscription Form   */
+.sp-force-hide { 
+ 	display: none;
+}
+
+.sp-form[sp-id="157588"] { 
+	display: block; 
+	background: rgba(87, 86, 86, 1); 
+	padding: 15px; 
+	width: 280px; 
+	max-width: 100%; 
+	border-radius: 20px; 
+	-moz-border-radius: 20px; 
+	-webkit-border-radius: 20px; 
+	border-color: #dddddd; 
+	border-style: solid; 
+	border-width: 1px; 
+	background-repeat: no-repeat; 
+	background-position: center; 
+	background-size: auto;
+}
+
+.sp-form[sp-id="157588"] input[type="checkbox"] { 
+	display: inline-block; 
+	opacity: 1; 
+	visibility: visible;
+}
+
+.sp-form[sp-id="157588"] .sp-form-fields-wrapper { 
+	margin: 0 auto; 
+	width: 250px;
+}
+
+.sp-form[sp-id="157588"] .sp-form-control { 
+	background: #ffffff; 
+	border-color: #ffffff; 
+	border-style: solid; 
+	border-width: 1px; 
+	font-size: 15px; 
+	padding-left: 8.75px; 
+	padding-right: 8.75px; 
+	border-radius: 0px; 
+	-moz-border-radius: 0px; 
+	-webkit-border-radius: 0px; 
+	height: 35px; 
+	width: 100%;
+}
+
+.sp-form[sp-id="157588"] .sp-field label {
+ color: #ffffff; 
+ font-size: 13px; 
+ font-style: normal; 
+ font-weight: bold;
+}
+
+.sp-form[sp-id="157588"] .sp-button-messengers { 
+	border-radius: 0px; 
+	-moz-border-radius: 0px; 
+	-webkit-border-radius: 0px;
+}
+
+.sp-form[sp-id="157588"] .sp-button { 
+	border-radius: 25px; 
+	-moz-border-radius: 25px; 
+	-webkit-border-radius: 25px; 
+	background-color: #13cc10; 
+	color: #ffffff; 
+	width: 100%; 
+	font-weight: 700; 
+	font-style: normal; 
+	box-shadow: none; 
+	-moz-box-shadow: none; 
+	-webkit-box-shadow: none;
+}
+
+.sp-form[sp-id="157588"] .sp-button-container { 
+	text-align: left;
+}
+/*  end of Subscription Form   */
+
+
+
+
+
+/*
 #header {
 	background-image: url("../images/background.jpg");
 	background-repeat: no-repeat;
@@ -195,7 +281,7 @@ End of Header
 	background-size: cover;
 	background-position: 50% 50%;
 }*/
-
+/*
 #portfolio, #skills, #about, #contact, .footer {
 	padding-top: 40px;
 }
@@ -204,7 +290,7 @@ End of Header
 	padding-bottom: 40px;
 /*	background: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(247,228,229,1) 100%); 
 */}
-
+/*
 .first-letter{
 	font-family: 'Princess Sofia', cursive;
 	font-size: 1.5em;
@@ -215,7 +301,7 @@ End of Header
 	/*padding-left: 1em;
 	padding-right: 1em;*/
 }
-
+/*
 .container {
 	width: 85%;
 	margin: 0 auto;
@@ -350,7 +436,7 @@ li {
   max-width: 95%
 }
 
-/* These are the buttons that are used to open and close the accordion panel */
+/* These are the buttons that are used to open and close the accordion panel *//*
 .accordion {
 	background: radial-gradient(circle, rgb(245, 233, 249) 0%, rgb(247, 228, 229) 22%, rgb(193, 240, 242) 100%);
   cursor: pointer;
@@ -396,7 +482,7 @@ li {
   transform: rotate(-90deg);
 }
 
-/* the accordion content panel is hidden by default */
+/* the accordion content panel is hidden by default */ /*
 .accordion__content {
   background-color: #f4f4f4;
   overflow: hidden;
@@ -668,3 +754,4 @@ footer {
 	}
 }	
 }
+*/
