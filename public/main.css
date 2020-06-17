@@ -57,42 +57,34 @@ p {
   border-bottom-right-radius: 50% 20%;*/
 }
 
-#logo {
-	z-index: 20px;
-}
 
-img.leaf {
-	float: right;
-	width: 15%;
-	margin-left: -20px;
-}
 
-#query1 {
+.query {
 	color: #337136;
 	font-style: italic;
-	max-width: 40%;
+}
+
+.query1 {
+	width: 40%;
 	padding-left: 15px;
 	margin-bottom: 60px;
 }
 
-#query2 {
-	color: #337136;
-	font-style: italic;
+.query2 {
 	width: 40%;
 	margin: auto;
 	margin-bottom: 60px;
 }
 
-#query3 {
-	color: #337136;
-	font-style: italic;
+.query3 {
 	padding-left: 60%;
 	margin-bottom: 120px;
 }
 
-#query3 p {
-	max-width: 100%;
-	padding-right: 15px;
+img.leaf {
+	float: right;
+	height: 69px;
+	margin-left: -20px;
 }
 
 .last-leaf {
@@ -124,10 +116,11 @@ img.leaf {
 
 #signature-div {
 	text-align: right;
+	padding-bottom: 50px;
 }
 
 #signature {
-	width: 27%;
+	height: 63px;
 }
 
 #vine {
@@ -205,21 +198,31 @@ div.sp-form h2 {
 }
 /*  end of Subscription Form   */
 
+#above-footer {
+	height: 410px;
+	width: 100%; 
+	overflow: hidden;
+	margin-top: -390px;
+	text-align: center;
+}
+
+#leaves {
+	height: 100%;
+	min-width: 1350px;
+	width: 100%;
+	margin: auto;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
 
 footer p {
 	text-align: center;
 	font-size: .8em;
-	margin-top: 40px;
+	margin-top: 0;
 	margin-bottom: 0;
 	padding: 3px 0;
 	background: #429904;
-}
-
-#leaves {
-	width: 100%;
-	position: absolute;
-	z-index: 1;
-	margin-top: -417px;
 }
 
 footer div a {
@@ -233,4 +236,171 @@ footer div a {
 #scnd-img {
 	position: inherit;
 	float: right;
+}
+
+/****************************************Media Queries*******************************************/
+
+@media only screen and (max-width: 1000px) {
+	.skewed {
+		  transform: skewY(15deg);
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.skewed {
+		  transform: skewY(18deg);
+	}
+	.query1 {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+	.query1 img.leaf {
+		padding-right: 85px;
+	}
+	.query1 p {
+		max-width: 90%;
+	}
+	.query2 {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+	.query3 {
+		padding-left: 50%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.skewed {
+		  transform: skewY(19deg);
+	}
+	#signature {
+		margin-right: -40px;
+	}
+
+}
+
+@media only screen and (max-width: 700px) {
+	#header {
+		height: 45vw;
+	}
+	.skewed {
+		  transform: skewY(20deg);
+		  height: 68vw;
+	}
+	#logo {
+		width: 90%;
+	}
+	.query1 {
+		width: 60%;
+		margin-bottom: 20px;
+	}
+	.query1 img.leaf {
+		padding-right: 85px;
+	}
+	.query1 p {
+		max-width: 90%;
+	}
+	.query2 {
+		width: 60%;
+	}
+	.query3 {
+		padding-left: 40%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	p {
+		font-size: 1em;
+	}
+	.query2 {
+		margin-bottom: 20px;
+		padding-right: 30px;
+	}
+	.query3 {
+		margin-bottom: 80px;
+	}
+	#answer {
+		margin-bottom: 40px;
+	}
+	img.leaf {
+		height: 55px;
+	}
+	#vine {
+		width: 75%;
+	}
+	#info p {
+		font-size: 1.1em;
+	}
+	#signature {
+		height: 50px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	#vine {
+		width: 80%;
+	}
+	footer p {
+		padding-bottom: 20px;
+	}
+	footer div {
+		margin-top: -20px;
+	}
+	footer div a {
+	position: inherit;
+	margin-top: -20px;
+	} 
+	#scnd-img {
+		margin-top: 0;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.query1 {
+		width: 70%;
+	}
+	.query2 {
+		width: 70%;
+	}
+	.query3 {
+		padding-left: 30%;
+		margin-bottom: 50px;
+	}
+	img.leaf {
+		height: 50px;
+	}
+	#answer div p {
+		max-width: 90%;
+		margin: auto;
+		padding-bottom: 30px;
+	}
+	#vine {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.query1 {
+		width: 80%;
+	}
+	.query2 {
+		width: 80%;
+		padding-right: 30px;
+	}
+	.query3 {
+		padding-left: 20%;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+
+	footer p {
+		padding-bottom: 32px;
+	}
+	footer div {
+		margin-top: -32px;
+	}
+	#scnd-img {
+		margin-top: -4px;
+	}
 }
