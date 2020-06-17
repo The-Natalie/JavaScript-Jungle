@@ -12,9 +12,11 @@ class App extends React.Component {
 			<div>
 				<Header />
 				<QandA />
-				<Info />
-				<SubscriptionForm />
-			  <Footer />
+				<div id="gradient">
+					<Info />
+					<SubscriptionForm />
+				  <Footer />
+				</div>
 			</div>
 		)
 	}

@@ -61,6 +61,12 @@ p {
 	z-index: 20px;
 }
 
+img.leaf {
+	float: right;
+	width: 15%;
+	margin-left: -20px;
+}
+
 #query1 {
 	color: #337136;
 	font-style: italic;
@@ -80,13 +86,16 @@ p {
 #query3 {
 	color: #337136;
 	font-style: italic;
-	padding-left: 60vw;
+	padding-left: 60%;
 	margin-bottom: 120px;
 }
 
 #query3 p {
 	max-width: 100%;
-	text-align: right;
+	padding-right: 15px;
+}
+
+.last-leaf {
 	padding-right: 15px;
 }
 
@@ -99,6 +108,12 @@ p {
 	margin-bottom: 60px;
 }
 
+#gradient {
+	background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,249,0,1) 33%, rgba(171,41,0,1) 100%); 
+	z-index: -40;
+	margin-top: -80px;
+	padding-top: 60px;
+}
 
 #info {
 	max-width: 75%;
@@ -112,10 +127,22 @@ p {
 }
 
 #signature {
-	width: 17%;
+	width: 27%;
+}
+
+#vine {
+	width: 540px;
+	height: 80px;
+	margin-top: -30px;
 }
 
 /* Subscription Form */
+
+.sp-form-outer {
+	position: relative;
+	z-index: 10;
+}
+
 div.sp-form { 
 	display: block; 
 	margin: auto;
@@ -125,6 +152,9 @@ div.sp-form {
 	border-color: #dddddd; 
 	border-style: solid; 
 	border-width: 1px; 
+	-webkit-box-shadow: 0px 0px 10px 5px rgba(242,229,122,0.7);
+	-moz-box-shadow: 0px 0px 10px 5px rgba(242,229,122,0.7);
+	box-shadow: 0px 0px 10px 5px rgba(242,229,122,0.7);
 }
 
 div.sp-form h2 {
@@ -180,4 +210,27 @@ footer p {
 	text-align: center;
 	font-size: .8em;
 	margin-top: 40px;
+	margin-bottom: 0;
+	padding: 3px 0;
+	background: #429904;
+}
+
+#leaves {
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	margin-top: -417px;
+}
+
+footer div a {
+	position: absolute;
+	z-index: 20;
+	margin-top: -20px;
+	font-size: .8em;
+	color: green;
+} 
+
+#scnd-img {
+	position: inherit;
+	float: right;
 }
