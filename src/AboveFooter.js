@@ -1,7 +1,6 @@
 import React from "react";
 
 function AboveFooter() {
-	const currentYear = new Date().getFullYear();
 
 	return (
 		<div id="above-footer">

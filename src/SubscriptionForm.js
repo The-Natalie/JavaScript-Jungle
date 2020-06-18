@@ -36,6 +36,7 @@ class SubscriptionForm extends React.Component {
           </div>
         </div>
         <script type="text/javascript" src="//web.webformscr.com/apps/fc3/build/default-handler.js?1592310722166"></script>
+        <script src="//web.webformscr.com/apps/fc3/build/loader.js" sp-form-id="3482dc1028115f249345d173b00076fa30757cc439b81069ac3bbd97b2ce3839"></script>
       </div>
     )
   }
