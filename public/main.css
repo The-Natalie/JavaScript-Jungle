@@ -48,16 +48,7 @@ p {
   z-index: -20;
   transform: skewY(14deg);
   transform-origin: top right;
-
-
-/*	position: relative;
-  background: #c0fe82;
-  height: 310px;
-  border-bottom-left-radius: 50% 20%;
-  border-bottom-right-radius: 50% 20%;*/
 }
-
-
 
 .query {
 	color: #337136;
@@ -160,9 +151,9 @@ div.sp-form h2 {
 }
 
 .sp-form-fields-wrapper { 
-	margin: 15px auto; 
-	width: 250px;
-}
+	margin: 15px auto 0 auto; 
+/*	width: 280px;
+*/}
 
 .sp-form-control { 
 	background: #ffffff; 
@@ -174,10 +165,20 @@ div.sp-form h2 {
 	margin-bottom: 15px;
 }
 
+.sp-field {
+	width: 250px;
+	padding-left: 15px;
+}
+
 .sp-field label { 
 	color: #594f4f; 
 	font-size: 1em; 
 	font-weight: bold;
+}
+
+.sp-field.sp-button-container {
+	width: 280px;
+	padding-left: 0;
 }
 
 .sp-button { 
