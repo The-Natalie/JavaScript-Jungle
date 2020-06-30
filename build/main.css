@@ -107,6 +107,10 @@ img.leaf {
 	z-index: 20;
 }
 
+#info p {
+	padding-bottom: 10px;
+}
+
 #signature-div {
 	text-align: right;
 	padding-bottom: 50px;
