@@ -23,7 +23,7 @@ function Info() {
 
   		<ScrollAnimation animateIn="slideInUp" initiallyVisible={false} animateOnce={true}>
     		<div id="signature-div">
-    			<a href="technatalie.com" target="_blank" rel="noopener noreferrer"><img  id="signature" src="images/by_Natalie_Hall.gif" alt="by Natalie Hall" /></a>
+    			<a href="https://technatalie.com" target="_blank" rel="noopener noreferrer"><img  id="signature" src="images/by_Natalie_Hall.gif" alt="by Natalie Hall" /></a>
     		</div>
       </ScrollAnimation>
   	</div>
