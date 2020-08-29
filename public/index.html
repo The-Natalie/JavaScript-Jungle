@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PHQFRTT8H"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-9PHQFRTT8H');
+		</script>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="/main.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="apple-touch-icon" href="/logo192.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>JavaScript Jungle</title>
+    <meta name="description" content="JavaScript Jungle is a short newsletter that explores lesser-known JavaScript terms. These are the methods and properties that aren't usually taught in beginner or even intermediate courses. Emails are sent Monday through Friday. We usually go over one term per email, so it takes 5 minutes or less to read. Please subscribe!" />
+    <meta property="og:title" content="JavaScript Jungle" />
+    <meta property="og:type" content="website" />
+		<meta property="og:description" content="JavaScript Jungle is a short newsletter that explores lesser-known JavaScript terms. Emails are sent Monday through Friday. We usually go over one term per email, so it takes 5 minutes or less to read. Sign up!" />
+		<meta property="og:image" content="https://javascriptjungle.com/images/JS_J_social.png" />
+		<meta property="og:url" content="https://javascriptjungle.com" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/postscribe/2.0.6/postscribe.min.js"></script>
+    <script>
+      window.onload = function() {
+        setTimeout(function(){ 
+            if(!window.location.hash) {
+              window.location = window.location + '#loaded';
+              window.location.reload();
+            }
+        }, 5000);
+      }   
+    </script>
+  </body>
+</html>

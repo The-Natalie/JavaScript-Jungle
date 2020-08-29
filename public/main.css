@@ -1,0 +1,433 @@
+* {
+	box-sizing: border-box;
+	max-width: 100%;
+}
+
+html,body
+{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-smooth: always;
+  scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'ABeeZee', sans-serif;
+	margin: 0;
+	background-color: white;
+	max-width: 100%;
+}
+
+h2 {
+	font-size: 1.7em;
+}
+
+p {
+	font-size: 1.3em;
+}
+
+#header {
+	text-align: center;
+	height: 310px;
+}
+
+.skewed {
+	position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 500px;
+  background: #c0fe82;
+  z-index: -20;
+  transform: skewY(14deg);
+  transform-origin: top right;
+}
+
+.query {
+	color: #337136;
+	font-style: italic;
+}
+
+.query1 {
+	width: 40%;
+	padding-left: 15px;
+	margin-bottom: 60px;
+}
+
+.query2 {
+	width: 40%;
+	margin: auto;
+	margin-bottom: 60px;
+}
+
+.query3 {
+	padding-left: 60%;
+	margin-bottom: 120px;
+}
+
+img.leaf {
+	float: right;
+	height: 69px;
+	margin-left: -20px;
+}
+
+.last-leaf {
+	padding-right: 15px;
+}
+
+#answer {
+	color: red;
+	font-style: italic;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.7em;
+	margin-bottom: 60px;
+}
+
+#gradient {
+	background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,249,0,1) 33%, rgba(171,41,0,1) 100%); 
+	z-index: -40;
+	margin-top: -80px;
+	padding-top: 60px;
+}
+
+#info {
+	max-width: 75%;
+	margin: auto;
+	color: #594f4f;
+	margin-bottom: 40px;
+	position: relative;
+	z-index: 20;
+}
+
+#info p {
+	padding-bottom: 10px;
+}
+
+#signature-div {
+	text-align: right;
+	padding-bottom: 50px;
+}
+
+#signature {
+	height: 63px;
+}
+
+#vine {
+	width: 540px;
+	height: 80px;
+	margin-top: -30px;
+}
+
+/* Subscription Form */
+
+#script {
+	min-height: 300px;
+}
+
+.sp-form-outer {
+	position: relative;
+	z-index: 10;
+}
+
+div.sp-form { 
+	display: block; 
+	margin: auto;
+	background: linear-gradient(0deg, rgba(16,185,16,1) 15%, rgba(192,254,130,1) 74%); 
+	min-height: 300px;
+	width: 280px; 
+	max-width: 100%; 
+	border-color: #dddddd; 
+	border-style: solid; 
+	border-width: 1px; 
+	-webkit-box-shadow: 0px 0px 10px 5px rgba(242,229,122,0.7);
+	-moz-box-shadow: 0px 0px 10px 5px rgba(242,229,122,0.7);
+	box-shadow: 0px 0px 10px 5px rgba(242,229,122,0.7);
+	padding: 0;
+}
+
+div.sp-form h2 {
+	text-align: center;
+	margin-top: 0;
+	background: none;
+	padding: 20px 0;
+	width: 100%;
+	border-bottom: 1px grey solid;
+}
+
+.sp-form-fields-wrapper { 
+	margin: 15px auto 0 auto; 
+/*	width: 280px;
+*/}
+
+.sp-form-control { 
+	background: #ffffff; 
+	font-size: 1em; 
+	padding-left: 8.75px;  
+	height: 35px; 
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.sp-field {
+	width: 250px;
+	padding-left: 15px;
+}
+
+.sp-field label { 
+	color: #594f4f; 
+	font-size: 1em; 
+	font-weight: bold;
+}
+
+.sp-brandname__left {
+	text-align: center;
+	font-size: .4em;
+}
+
+a.sp-link {
+	text-decoration: none;
+}
+
+#send-p-link {
+	color: #4fd74b;
+}
+
+.sp-field.sp-button-container {
+	width: 280px;
+	padding-left: 0;
+}
+
+.sp-button { 
+	background: #10b910; 
+	color: #ffffff; 
+	width: 100%; 
+	margin-top: 5px;
+	font-size: 1.7em;
+	padding: 8px 0;
+	border: none;
+	border-top: 1px white solid;
+}
+
+.sp-button:hover, .sp-button:focus {
+	background: #ab2900;
+	color: #fff900;
+	font-weight: bold;
+}
+/*  end of Subscription Form   */
+
+#above-footer {
+	height: 430px;
+	width: 100%; 
+	overflow: hidden;
+	margin-top: -410px;
+	text-align: center;
+}
+
+#leaves {
+	height: 100%;
+	min-width: 1350px;
+	width: 100%;
+	margin: auto;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+footer p {
+	text-align: center;
+	font-size: .8em;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 3px 0;
+	background: #429904;
+}
+
+footer div a {
+	position: absolute;
+	z-index: 20;
+	margin-top: -20px;
+	font-size: .8em;
+	color: green;
+	text-decoration: none;
+} 
+
+#scnd-img {
+	position: inherit;
+	float: right;
+}
+
+/****************************************Media Queries*******************************************/
+
+@media only screen and (max-width: 1000px) {
+	.skewed {
+		  transform: skewY(15deg);
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.skewed {
+		  transform: skewY(18deg);
+	}
+	.query1 {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+	.query1 img.leaf {
+		padding-right: 85px;
+	}
+	.query1 p {
+		max-width: 90%;
+	}
+	.query2 {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+	.query3 {
+		padding-left: 50%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.skewed {
+		  transform: skewY(19deg);
+	}
+	#signature {
+		margin-right: -40px;
+	}
+
+}
+
+@media only screen and (max-width: 700px) {
+	#header {
+		height: 45vw;
+	}
+	.skewed {
+		  transform: skewY(20deg);
+		  height: 68vw;
+	}
+	#logo {
+		width: 90%;
+	}
+	.query1 {
+		width: 60%;
+		margin-bottom: 20px;
+	}
+	.query1 img.leaf {
+		padding-right: 85px;
+	}
+	.query1 p {
+		max-width: 90%;
+	}
+	.query2 {
+		width: 60%;
+	}
+	.query3 {
+		padding-left: 40%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	p {
+		font-size: 1em;
+	}
+	.query2 {
+		margin-bottom: 20px;
+		padding-right: 30px;
+	}
+	.query3 {
+		margin-bottom: 80px;
+	}
+	#answer {
+		margin-bottom: 40px;
+	}
+	img.leaf {
+		height: 55px;
+	}
+	#vine {
+		width: 75%;
+	}
+	#info p {
+		font-size: 1.1em;
+	}
+	#signature {
+		height: 50px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	#vine {
+		width: 80%;
+	}
+	footer p {
+		padding-bottom: 20px;
+	}
+	footer div {
+		margin-top: -20px;
+	}
+	footer div a {
+	position: inherit;
+	margin-top: -20px;
+	} 
+	#scnd-img {
+		margin-top: 0;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.query1 {
+		width: 70%;
+	}
+	.query2 {
+		width: 70%;
+	}
+	.query3 {
+		padding-left: 30%;
+		margin-bottom: 50px;
+	}
+	img.leaf {
+		height: 50px;
+	}
+	#answer div p {
+		max-width: 90%;
+		margin: auto;
+		padding-bottom: 30px;
+	}
+	#vine {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.query1 {
+		width: 80%;
+	}
+	.query2 {
+		width: 80%;
+		padding-right: 30px;
+	}
+	.query3 {
+		padding-left: 20%;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+
+	footer p {
+		padding-bottom: 32px;
+	}
+	footer div {
+		margin-top: -32px;
+	}
+	#scnd-img {
+		margin-top: -4px;
+	}
+}
