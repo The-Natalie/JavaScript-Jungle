@@ -13,7 +13,7 @@ function Info() {
       </ScrollAnimation>  
 
       <ScrollAnimation animateIn="slideInUp" initiallyVisible={false} animateOnce={true}>  
-  		  <p>I'll try to consistently send out a newsletter throughout the week, but we'll take the weekends off.</p>
+  		  <p>I'll try to consistently send out newsletters on Mondays, Wednesdays, and Fridays, but I might occasionally take a break.</p>
       </ScrollAnimation>  
 
 
